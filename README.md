@@ -47,8 +47,12 @@ Thanks to the vagrant cloud people who provided the base box for this repo. File
 1. Vagrant Machine 
     * vagrant up will start the machine 
     * vagrant suspend will shut down the machine 
-2. The Meteor App 
+2. Starting The Meteor App 
     * Vagrant ssh to get into the box 
     * cd /vagrant/testApp  >> This will get you in the directory to start the app 
     * meteor will fire up the app in localhost:3000 
     * this will translate the forwarded port in the vagrant file, which in this case is also localhost:3000  
+3. Shutting Down the Meteor App 
+    * CMD or Apple C will shut down the session
+    * type exit to leave the vagrant ssh 
+    * Vagrant Suspend to Shutdown the Box  
