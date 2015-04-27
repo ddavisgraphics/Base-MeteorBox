@@ -38,7 +38,7 @@ Thanks to the vagrant cloud people who provided the base box for this repo. File
     * mkdir -p testApp/.meteor/local
     * sudo mount --bind /home/vagrant/testApp/.meteor/local/ /vagrant/testApp/.meteor/local/
 2. To Start the Meteor Project 
-    * cd /vagrant/myApp
+    * cd /vagrant/testApp
     * meteor
 3. Terminal should say that your app is running on Localhost:3000 
 
