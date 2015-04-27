@@ -20,6 +20,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   config.vm.network :forwarded_port, guest: 8080, host: 8080
   config.vm.network :forwarded_port, guest: 80, host: 2000
+  config.vm.network :forwarded_port, guest: 3000, host:3000 ## setups for meteor forwarding the port to 3000
   # config.vm.network :forwarded_port, guest: 22, host: 2222
 
 
