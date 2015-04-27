@@ -36,16 +36,11 @@ Thanks to the vagrant cloud people who provided the base box for this repo. File
     * cd testApp/.meteor
     * cd ~ 
     * mkdir -p testApp/.meteor/local
-<<<<<<< HEAD
     * sudo mount --bind /home/vagrant/testApp/.meteor/local/ /vagrant/testApp/.meteor/local/
-=======
-    * sudo mount --bind /home/vagrant/myApp/.meteor/local/ /vagrant/myApp/.meteor/local/
->>>>>>> origin/master
 2. To Start the Meteor Project 
     * cd /vagrant/myApp
     * meteor
 3. Terminal should say that your app is running on Localhost:3000 
-<<<<<<< HEAD
 
 ## To Start and Stop Meteor Apps and Vagrant Machine 
 
@@ -57,6 +52,3 @@ Thanks to the vagrant cloud people who provided the base box for this repo. File
     * cd /vagrant/testApp  >> This will get you in the directory to start the app 
     * meteor will fire up the app in localhost:3000 
     * this will translate the forwarded port in the vagrant file, which in this case is also localhost:3000  
-
-=======
->>>>>>> origin/master
